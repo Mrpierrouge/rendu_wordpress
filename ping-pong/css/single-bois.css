@@ -1,0 +1,43 @@
+.single-boiss{
+    display: flex;
+    justify-content: center;
+}
+.single-bois-card{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
+    border: 2px solid black;
+    width: 100%;
+    background-color: burlywood;
+}
+.single-bois-card img{
+    height: auto;
+    width: auto;
+    aspect-ratio: 1 / 1;
+    align-self: center;
+}
+.single-bois-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@media screen and (max-width : 680px) {
+    .single-bois-card{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding-inline: 30px;
+    }
+    .single-bois-card img{
+        height: auto;
+        width: 250px;
+        aspect-ratio: 1 / 1;
+    }
+}
+@media screen and (max-width : 340px) {
+    .single-bois-content{
+        font-size: 14px;
+    }
+}

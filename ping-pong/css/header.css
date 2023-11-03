@@ -1,0 +1,34 @@
+nav{
+    background-color: rgb(83, 172, 255);
+    display: flex;
+    padding-inline: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    margin-bottom: 50px;
+    color:white;
+}
+
+nav .header-menu{
+    color: white;
+    justify-content: space-around;
+    list-style: none;
+}
+nav a{
+    color: white;
+}
+nav a:visited{
+    color: white;
+}
+
+.articles-nav{
+    margin-top: 50px;
+}
+
+.articles-nav nav .nav-links{
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.articles-nav nav .nav-links a{
+    text-decoration: none;
+}
