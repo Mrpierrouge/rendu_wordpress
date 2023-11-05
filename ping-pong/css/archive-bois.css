@@ -53,3 +53,8 @@
 .bois-card-more-link:visited{
     color:white;
 }
+@media screen and (max-width : 500px) {
+    .bois-container{
+        grid-template-columns: 1fr;
+    }
+}

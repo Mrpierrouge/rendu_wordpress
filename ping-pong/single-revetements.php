@@ -25,17 +25,20 @@ get_header();
 					</div>
 
 			</section>
+
 			<section class="single-revetements-infos-supplementaires">
 			<h2>Informations supplémentaires :</h2>
+
 			<?php if(array_key_exists("rapidite", $data)) : ?>
 				<p>Rapidité : <?=$data['rapidite']?> </p>
-			<p>Controle : <?=$data['controle']?> </p>
-			<p>Adhérence : <?=$data['adherence']?> </p>
+				<p>Controle : <?=$data['controle']?> </p>
+				<p>Adhérence : <?=$data['adherence']?> </p>
 			<?php endif; ?>	
+
 			<?php if(array_key_exists("durete", $data)) : ?>
 				<p>Longueur picots : <?=$data['longueur_picots']?> mm</p>
-			<p>Diamètre picots : <?=$data['diametre_picots']?> mm</p>
-			<p>Dureté : <?=$data['durete']?> °</p>
+				<p>Diamètre picots : <?=$data['diametre_picots']?> mm</p>
+				<p>Dureté : <?=$data['durete']?> °</p>
 			<?php endif; ?>
 			<h2>Épaisseurs disponibles :</h2>
 			<ul>
@@ -45,6 +48,8 @@ get_header();
 			</ul>
 			
 		</section>
+
+
 			<div class="articles-nav">
 			<?php
 			the_post_navigation(
